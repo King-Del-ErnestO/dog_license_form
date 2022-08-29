@@ -1,0 +1,21 @@
+What questions would you ask the client?
+
+I'd like to gather some important information like, how did you get the dog?
+Is he lawfully yours? Are you capable of taking care of the dog? Do you plan on
+getting more dogs in future?
+I'd also get the owner's information and dog's information for the license.
+I'd like to know:
+Owner's Name(s)
+Owner's Address(home,city,state,country)
+Owner's Telephone Number
+Owner's Email
+Owner's Gender
+Owner's means of identification
+Next I'd like to get:
+Dog's Name
+Dog's Color(s)
+Dog's Gender
+Dog's breed
+Dog's name tag
+
+For a license, vaccination is key i'd like to get that information too.

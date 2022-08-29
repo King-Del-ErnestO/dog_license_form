@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dog License Form</title>
+    <link href="style.css" type="text/css" rel="stylesheet" >
+</head>
+<body>
+<header>
+  <div class="text-box">
+    <h1 id="title">WELCOME TO THE <br>DEPARTMENT OF PET PROTECTION!</h1><hr>
+      <p id="description">Get Your Dog License done in no time!</p>
+  </div>
+</header>
+    <div class="container">
+        <p style="">Let's get to know You</p>
+        <form id="survey-form" action="successful.html" enctype="multipart/form-data" method="POST">
+
+    <!--OWNER INFO START-->
+            <div class="labels">
+                <label id="first_name-label" for="first_name">First Name</label></div>
+            <div class="input-tab">
+                <input class="input-field" type="text" id="first_name" name="first_name" placeholder="Enter your first name" required autofocus></div>
+            <div class="labels">
+                <label id="last_name-label" for="last_name">Last Name</label></div>
+            <div class="input-tab">
+                <input class="input-field" type="text" id="last_name" name="last_name" placeholder="Enter your last name" required autofocus></div>
+            <div class="labels">
+                <label id="address-label" for="address">Address</label></div>
+            <div class="input-tab">
+                <input class="input-field" type="text" id="address" name="address" placeholder="Enter your address" required autofocus></div>
+            <div class="labels">
+                <label id="state-label" for="state">State, Country</label></div>
+            <div class="input-tab">
+                <input class="input-field" type="text" id="state" name="state" placeholder="Enter your State, Country" required autofocus></div>
+            <div class="labels">
+                <label id="phone_number-label" for="phone_number">Phone Number</label></div>
+            <div class="input-tab">
+                <input class="input-field" type="tel" id="phone_number" name="phone_number" placeholder="Enter your phone number" required autofocus></div>
+            <div class="labels">
+                <label id="email-label" for="email">Email</label></div>
+            <div class="input-tab">
+                <input class="input-field" type="email" id="email" name="email" placeholder="email@email.com" required></div>
+            <div class="labels">
+                <label for="gender">Gender</label></div>
+            <div class="input-tab">
+                <input type="radio" name="gender" value="Male">Male<br>
+                <input type="radio" name="gender" value="Female">Female<br>
+            </div>
+            <div class="labels">
+                <label id="ID-label" for="ID">Upload Valid Means of Identification</label></div>
+            <div class="input-tab">
+                <input class="input-field" type="file" id="ID" name="ID" placeholder="" required></div>
+            <div class="labels">
+                <label for="capable">Are you capable of taking care of your dog?</label></div>
+            <div class="input-tab">
+                <input type="radio" name="capable" value="Yes">Yes<br>
+                <input type="radio" name="capable" value="No">No<br>
+                <input type="radio" name="capable" value="Maybe">Maybe<br>
+            </div>
+        <!--OWNER INFO END-->
+
+        <!--DOG INFO START-->
+        <hr>
+        <p>Let's get to know your Dog</p>
+
+            <div class="labels">
+                <label id="dog_name-label" for="dog_name">Dog's Name</label></div>
+            <div class="input-tab">
+                <input class="input-field" type="text" id="dog_name" name="dog_name" placeholder="Enter your dog's name" required autofocus></div>
+            <div class="labels">
+                <label id="dog_p_color-label" for="dog_p_color">Dog's Primary Color</label></div>
+            <div class="input-tab">
+                <input class="input-field" type="text" id="dog_p_color" name="dog_p_color" placeholder="Enter your dog's primary color" required autofocus></div>
+            <div class="labels">
+                <label id="dog_s_color-label" for="dog_s_color">Dog's Secondary Color</label></div>
+            <div class="input-tab">
+                <input class="input-field" type="text" id="dog_s_color" name="dog_s_color" placeholder="Enter your dog's secondary color" required autofocus></div>
+            <div class="labels">
+                <label id="birthday-label" for="birthday">Birthday</label></div>
+            <div class="input-tab">
+                <input class="input-field" type="date" id="birthday" name="birthday" placeholder="" required autofocus></div>
+            <div class="labels">
+                <label>Dog's Gender</label></div>
+            <div class="input-tab">
+                <input type="radio" name="dog_gender" value="Male">Male<br>
+                <input type="radio" name="dog_gender" value="Female">Female<br>
+            </div>
+            <div class="labels">
+                <label id="dog_breed-label" for="dog_breed">Dog's Breed</label></div>
+            <div class="input-tab">
+                <input class="input-field" type="text" id="dog_breed" name="dog_breed" placeholder="Enter your dog's breed" required autofocus></div>
+            <div class="labels">
+                <label id="dog_tag-label" for="dog_tag">Dog's Name Tag</label></div>
+            <div class="input-tab">
+                <input class="input-field" type="text" id="dog_tag" name="dog_tag" placeholder="Enter your dog name tag" required autofocus></div>
+            <div class="labels">
+                <label>Is your dog vaccinated?</label></div>
+            <div class="input-tab">
+                <input type="radio" name="vaccinated" value="Yes">Yes<br>
+                <input type="radio" name="vaccinated" value="No">No<br>
+            </div>
+            <!--DOG INFO ENDS HERE-->
+
+            <!--VET INFO STARTS HERE-->
+            <hr>
+            <div class="labels">
+                <label id="vet_f_name-label" for="vet_f_name">Veterinarian First Name</label></div>
+            <div class="input-tab">
+                <input class="input-field" type="text" id="vet_f_name" name="vet_f_name" placeholder="Enter vet's first name" required autofocus></div>
+            <div class="labels">
+                <label id="vet_l_name-label" for="vet_l_name">Veterinarian Last Name</label></div>
+            <div class="input-tab">
+                <input class="input-field" type="text" id="vet_l_name" name="vet_l_name" placeholder="Enter vet's last name" required autofocus></div>
+            <div class="labels">
+                <label id="v_phone_number-label" for="v_phone_number">Phone Number</label></div>
+            <div class="input-tab">
+                <input class="input-field" type="text" id="v_phone_number" name="v_phone_number" placeholder="Enter vet's phone number" required autofocus></div>
+            <div class="labels">
+                <label id="v_address-label" for="v_address">Address</label></div>
+            <div class="input-tab">
+                <input class="input-field" type="text" id="v_address" name="v_address" placeholder="Enter vet address" required autofocus></div>
+
+            <!--VET INFO ENDS HERE-->
+            <div class="labels">
+                <label for="comments">Additional Remarks</label></div>
+            <div class="input-tab">
+                <textarea class="input-field" id="comments" name="comments" rows="10" cols="40" placeholder="Your comments..."></textarea></div>
+
+            <div class="btn">
+                <button id="submit" type="submit">Get License</button>
+            </div>
+
+      </form>
+    </div>
+
+
+<footer>
+      <p>&copy 2022 Akubueze Ernest</p>
+</footer>
+
+</body>
+</html>
